@@ -1,0 +1,35 @@
+body{margin:0;padding:0;font-size:12px;line-height:24px; color:#575656; background:#ebebeb; font-family:"ÀŒÃÂ";}
+ul,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+.clear{clear:both;height:0;line-height:0;font-size:0;}
+a{ text-decoration:none; color:#575656;}
+a:hover{ text-decoration:underline; color:#0e0abd;}
+
+.header{ width:100%; height:408px;}
+.top{ width:100%; height:100px; background:url(images/img01.gif) no-repeat center;}
+.top1{ width:100%; height:100px; background:url(images/img02.gif) no-repeat center;}
+.top2{ width:100%; height:100px; background:url(images/img03.gif) no-repeat center;}
+.top3{ width:100%; height:108px; background:url(images/img04.gif) no-repeat center;}
+.wrap{ width:1002px; background:url(images/img05.gif) repeat-y 0 0; margin:0 auto; padding-bottom:25px;}
+.content{ width:914px; padding:23px 45px 0 43px;}
+.bar{ width:914px; height:41px;}
+.cont{ width:914px; padding-top:18px;}
+.cont_t{ width:914px; background:url(images/img07.gif) no-repeat; height:18px; font-size:0; line-height:0;}
+.cont_c{ width:914px; background:url(images/img09.gif) repeat-y; padding-top:8px;}
+.cont_b{width:914px; background:url(images/img12.gif) no-repeat; height:15px; font-size:0; line-height:0;}
+
+.cont_c h2{ width:100px; background:url(images/img08.gif) no-repeat; color:#120d83; font-size:14px; line-height:21px; padding-left:21px; margin:0 0 15px 64px;}
+.jianjie{ width:818px; padding-left:51px;}
+.jianjie_t{ width:818px; height:15px; background:url(images/img10.gif) no-repeat; font-size:0; line-height:0;}
+.jianjie p{ width:774px; padding:24px 22px 55px; background:#FFFFFF;}
+.zhiwei{ width:785px; background:#FFFFFF; padding-left:33px; color:#2c090d; font-size:14px; line-height:28px; padding-bottom:15px;}
+.zhiwei a{ color:#2c090d;}
+.zhiwei a:hover{ color:#0e0abd;}
+.jianjie_b{ width:818px; height:39px; background:url(images/img11.gif) no-repeat; font-size:0; line-height:0;}
+
+.item_img{width:818px;height:136px;padding:0 0 11px 51px;}
+.sqBorder {width:818px; height:136px;}
+.scroll_div {width:818px; height:136px;margin:0 auto; overflow: hidden; white-space: nowrap;}
+.scroll_div img {height:136px;margin-left:3px;}
+#scroll_begin, #scroll_end, #scroll_begin ul, #scroll_end ul, #scroll_begin ul li, #scroll_end ul li{display:inline;}/*…Ë÷√ul∫Õli∫·≈≈*/
+
+.footer{ height:107px; width:100%; background:url(images/img15.gif) repeat-x 0 0; text-align:center; color:#FFFFFF; line-height:107px;}
