@@ -1,15 +1,60 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>jyf</title><link rel=stylesheet type=text/css href=https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css><link rel=stylesheet type=text/css href=https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css><link href=/static/css/app.79ca2237f9da1d3f9e39c73c771de593.css rel=stylesheet></head><body><div id=app></div><script src=https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js></script><script src=https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js></script><script src=https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js></script><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.7880c67336dba311b909.js></script><script type=text/javascript src=/static/js/app.00fac2d81b2eda2f1673.js></script></body><script>fnResize();
-  window.onresize = function () {
-    fnResize();
-  }
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<style>
+*{margin:0; padding:0}
+body { background:#d97f5c;}
+.nav { position:fixed; top:30px; right:50px; font-size:15px; z-index:9999; font-family:Microsoft Yahei;}
+.nav ul { position:relative; z-index:2}
+.nav li { float:left;list-style:none;margin:0 20px; line-height:28px;}
+.nav li a { color:#fff; text-decoration:none; display:block}
+#circle { position:absolute; border-radius:15px; border:2px solid #fff; width:52px; left:6px; height:24px; z-index:1;}
+.wrap {display:flex;align-items:center;justify-content: center;flex-direction:column; height:100vh; padding:0px 20px}
+.wrap h1 {color:#fff; font-size:70px; letter-spacing:10px;}
+.wrap h2 {color:#fff; font-size:30px; margin-top:20px; letter-spacing:5px;}
+.wrap p {font-size:16px;color:#fff; margin-top:30px;}
+</style>
+</head>
 
-  function fnResize() {
-    var deviceWidth = document.documentElement.clientWidth || window.innerWidth;
-    if (deviceWidth >= 750) {
-      deviceWidth = 750;
-    }
-    if (deviceWidth <= 320) {
-      deviceWidth = 320;
-    }
-    document.documentElement.style.fontSize = (deviceWidth / 7.5) + 'px';
-  }</script></html>
+<body>
+<div class="nav">
+	<div id="circle"></div>
+	<ul>
+    	<li><a href="/">首页</a></li>
+        <li><a href="/vue">vue案例</a></li>
+        <li><a href="/zhichang">职场新生代</a></li>
+    </ul>
+</div>
+<div class="wrap">
+	
+	<h1 class="animated fadeInUp">贾玉芳</h1>
+    <h2 class="animated fadeInUp delay-1s">web前端工程师</h2>
+    <p class="animated fadeInUp delay-2s">主要能力：pc、移动端网页制作，浏览器兼容，动画特效，响应式网站布局，vue框架应用，前后端分离，Git版本库管理，简单ps设计</p>
+    <p class="animated fadeInUp delay-3s">主要应用技术：HTML5、CSS3、jQuery、bootstrap、swiper、layer、vue、Git</p>
+
+</div>
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+$(function(){
+	$('.nav ul li').mouseover(function(){
+		var Left=$(this).position().left;
+		var Wid=$(this).width();
+		$('#circle').stop(true).animate({
+			'width':Wid+22+'px',
+			'left':Left+6+'px'
+		})
+	})
+	$('.nav ul li').mouseleave(function(){
+		$('#circle').stop(true).animate({
+			'width':'52px',
+			'left':'6px'
+		})
+	})
+})
+</script>

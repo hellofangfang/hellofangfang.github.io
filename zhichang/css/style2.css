@@ -1,0 +1,181 @@
+a:hover{color:#fff;}
+
+html, body {
+      position: relative;
+      height: 100%;
+	  width:100%;
+    }
+    body {
+      background:url(../images/light.gif) no-repeat; background-size:100% 100%;
+      font-size: 14px;
+      color:#fff;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+	  overflow:hidden;
+    }
+
+.wrap1200 {
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.nav { position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate3d(0,-50%,0);
+    -moz-transform: translate3d(0,-50%,0);
+    -ms-transform: translate3d(0,-50%,0);
+    -o-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
+}
+.redline {width:50px; height:2px; border-bottom:2px solid #e5395a;}
+.whiteline {width:50px; height:2px; border-bottom:2px solid #fff;}
+.linestyle {margin-top:20px; float:right; margin-bottom:20px;}
+.newface { color:#fff; font-size:20px; text-transform:uppercase; font-weight:bold; margin:20px 0px}
+.num2018 { color:#fff; font-size:24px; font-weight:bold;margin:20px 0px}
+.swiper-pagination {margin-top:207px; position:relative}
+.swiper-text {margin-top:-85px; color:#fff;margin-left:20px;}
+.swiper-pagination-bullet {background:url(../images/nav.png) no-repeat;width:10px; height:10px; opacity:1; border-radius:0px; display:block; margin:10px 0px}
+.swiper-pagination-bullet-active { background:url(../images/navhover.png) no-repeat;width:10px; height:10px;}
+.arrow {margin-top:116px;}
+.shuqi {font-size:25px; color:#fff; position:absolute; left:186px; margin-top:-18px}
+.shuqi i { color:#e5395a}
+.yaoqiu {font-size:20px;margin-top:123px; display:block}
+.one-right {position:absolute; right:0px; text-align:right;line-height:26px}
+.Summer { font-size:20px; text-transform:uppercase; font-weight:bold; line-height:20px}
+
+.two-right {position:absolute; right:0px; text-align:right;line-height:26px}
+.famous {font-size:40px; font-weight:bold; text-transform:uppercase;}
+.famous2 {font-size:22px; font-weight:bold; text-transform:uppercase; display:none}
+.zhaomu {font-size:25px;margin-top:20px;}
+.f25 {font-size:25px;}
+.mt20 {margin-top:20px;}
+.buzhou {margin:30px 0px}
+.wapbuzhou2 {display:none}
+.wapbuzhou3 {display:none}
+.mingqi { float:right; margin-top:30px; margin-bottom:20px}
+.mingqi li{ text-align:center; width:70px; margin-left:20px; float:left}
+.notoudi { background:url(../images/notoudi.png) no-repeat; width:170px; height:50px; display:block; float:right; line-height:50px; text-align:center;color:#fff;font-size:18px;}
+.notoudi a {display:block; color:#fff; text-decoration:none}
+.toudi { background:url(../images/toudi.png) no-repeat; cursor:pointer}
+
+.three-right {position:absolute; right:0px; text-align:right;line-height:26px}
+.hangye { color:#fff; font-size:18px}
+.hangye li {color:#fff; display:inline-block; cursor:pointer;}
+.hangye li.active {color:#e5395a}
+.tabwrap { position:relative}
+.tabcon {width:100%;float:right; display:none}
+.height140{ height:140px; overflow:hidden;}
+.tabcon .col-md-3 { height:60px; position:relative;margin-top:10px;transition:all 500ms;}
+.tabcon .bg {position:absolute;left:0px;top:0px; background:url(../images/tab.png) no-repeat;width:100%; height:60px; line-height:60px; background-size:100% 100%;background-position:center center;transition:all 500ms;}
+.tabcon .bg .job {width:60%; float:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-align:left;padding-left:20px}
+.tabcon .bg .salary { text-align:center; float:left; width:40%}
+.tabcon .bg2 {transition:all 500ms;position:absolute;left:0px;top:0px; background:url(../images/tabh.png) no-repeat;width:0px; overflow:hidden; height:60px; background-size:100% 100%;background-position:center center;}
+.tabcon .bg2 .corp {color:#e5395a;width:90%; margin-left:5%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-align:left; float:left; line-height:30px;}
+.tabcon .bg2 .xiangqingbtn {color:#e5395a;padding:0px 5px; border:1px solid #e5395a;border-radius:5px;margin-left:5%; text-align:left; float:left; line-height:20px; text-decoration:none}
+
+.tabcon .b_3d {width:90%;
+	height:60px;
+	position:absolute;
+	right:0px; top:0px;
+	transition:all 1s;
+	}
+.tabcon .col-md-3:hover .bg{width:0px; overflow:hidden}
+.tabcon .col-md-3:hover .bg2{width:100%;}
+
+.more {font-size:18px; margin-top:20px; color:#fff; display:block}
+.more:hover {color:#fff;}
+
+.four-right {position:absolute; right:0px; text-align:right;line-height:26px}
+.xinyi {font-size:22px; margin-top:50px;}
+.article {margin-top:50px; font-size:16px; line-height:26px;}
+.article a {color:#fff; text-decoration:none;display:block;}
+.article a:hover {color:#e5395a}
+.fazebtn { background:url(../images/toudi.png) no-repeat; width:170px; height:50px; display:block; float:right; line-height:50px; text-align:center;color:#fff;font-size:18px; margin-top:60px;text-decoration:none}
+.fazebtn:hover { text-decoration:none}
+
+.resume div {position:relative;overflow:hidden;margin-bottom:20px;}
+.resume div img {width:100%}
+.resume div a { background:rgba(0,0,0,0.5); width:100%; height:100%; position:absolute; left:0px; top:360px; transition:all 500ms;}
+.resume div a i{ border:1px solid #fff; width:120px; height:30px; text-align:center; line-height:26px; display:block; color:#fff; font-style:normal;border-radius:20px;margin:90px auto 0px;}
+.resume div:hover a {top:0px;}
+.four-left{position:absolute; left:130px; width:48%}
+.four-left .col-md-3 {padding:0px; margin-left:2%; width:23%;}
+.four-left2{display:none}
+
+.mobanbtn { background:url(../images/toudi.png) no-repeat; width:170px; height:50px; display:block; float:right; line-height:50px; text-align:center;color:#fff;font-size:18px; margin-top:30px;}
+.mobanbtn:hover { text-decoration:none}
+
+.footer { color:#fff; font-size:12px; position:absolute; bottom:20px;}
+.footer a { color:#fff;}
+
+@media screen and (max-width:667px){
+	.wrap1200{width:90%;}
+	.newface {font-size:16px;}
+	.banner {margin-top:300px}
+	.banner img {max-width:90%}
+	.shuqi {font-size:16px; left:0px; margin-top:-30px}
+	.Summer {font-size:14px;}
+	.famous{display:none}
+	.famous2{display:block}
+	.buzhou {display:none}
+	.wapbuzhou2 {display:block}
+	.wapbuzhou2 img {max-width:60%}
+	.wapbuzhou3 {display:block}
+	.wapbuzhou3 img {max-width:60%}
+	.mingqi {width:84%}
+	.mingqi li {width:46px;margin-left:10px;}
+	.mingqi li img {width:100%;}
+	.four-left { display:none}
+	.xinyi {font-size:16px;}
+	.article{font-size:14px; margin-top:10px;}
+	.zhaomu {font-size:20px;margin-top:10px;}
+	.mt20 {margin-top:10px}
+	.linestyle {margin-top:10px; float:right; margin-bottom:10px;}
+	.four-left{display:none}
+	.four-left2{display:block; width:80%; float:right}
+	.four-left2 .col-md-3 {padding:0px; margin-left:2%; width:23%;}
+	.four-left2 .mobanbtn {margin-top:0px;}
+	.xinyi {margin-top:26px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+	.fazebtn {margin-top:12px;}
+	.footer {bottom:10px;}
+	.resume div a i{ margin-top:30px; width:100%}
+
+}
+@media screen and (max-width:320px){
+	.swiper-pagination {opacity:0}
+	.swiper-text {opacity:0}
+	.arrow {display:none}
+	.summerwrap {opacity:0}
+	.yaoqiu {margin-top:50px;}
+	.mingqi {width:100%; margin-top:0px; margin-bottom:10px}
+	.article a { white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+	.footer {display:none}
+}
+
+
+
+
+
+
+
